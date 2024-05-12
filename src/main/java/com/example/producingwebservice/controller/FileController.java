@@ -12,7 +12,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-public class FileController {g
+public class FileController {
     @Autowired
     FileService fileService;
 
@@ -23,7 +23,3 @@ public class FileController {g
         return fileService.checkMapDvcOnline(dto, file);
     }
 }
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/caothien2k37/mapping_-dvc.git
-git push -u origin main
